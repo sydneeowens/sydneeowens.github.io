@@ -1,9 +1,14 @@
-h1 {color: #990033;font-family:inherit; font-size:30pt}
-h3 {color: #990033;font-family:inherit; font-size:20pt}
+h1 {color: darkred;font-family:inherit; font-size:30pt; margin-top:25px; margin-left: 25px; margin-right: 25px; width: 300px;  
+                padding-left: 25px;
+                padding-right: 1px;
+                border: 2px solid darkred; background-color:#cc9999; color:darkred}
+body {border: 3px dotted darkred; margin: 20px; background-color: #99cccc}
+h3 {color: darkred;font-family:inherit; font-size:20pt}
 #text {font-family:serif; font-size: 14pt;}
 #bachelor {color: darkblue; font-size:14pt;}
 #master {color:cadetblue; font-size:14pt;}
 #copyright {font-size: 8pt;}
 a {text-decoration: none; font-size: 10pt;}
-img {float: right;}
+img {float: right; padding: 10px; margin: 10px; border: solid darkred}
 li > a:hover {color:darkred; font-size: 14pt;}
+footer {border-top: 1px solid darkred}
