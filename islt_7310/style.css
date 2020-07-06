@@ -16,7 +16,8 @@ h1 {color: darkred;font-family:inherit; font-size:30pt; margin-top:25px; margin-
 body {border: 3px dotted darkred; margin: 15px; background-color: #99cccc}
 h3 {color: darkred;font-family:inherit; font-size:20pt}
 p {font-family:serif; font-size: 14pt;}
-#resume {text-align: center}
+#resume {text-align: center; font-family: inherit; font-size: 20pt; position:relative}
+        </style>
 #bachelor {color: darkblue; font-size:14pt;}
 #master {color: darkcyan; font-size:14pt;}
 #copyright {font-size: 8pt;}
