@@ -7,17 +7,16 @@
 
 *Developed: June 27, 2020
 
-*Tested:  July 6, 2020; Passed on Firefox and Chrome browsers.
+*Tested:  July 8, 2020; Passed on Firefox and Chrome browsers.
 **************************************************************/
 h1 {color: darkred;font-family:inherit; font-size:30pt; margin-top:25px; margin-left: 25px; margin-right: 25px; width: 300px;  
                 padding-left: 25px;
                 padding-right: 1px;
                 border: 2px solid darkred; background-color:#cc9999; color:darkred}
-body {border: 3px dotted darkred; margin: 15px; background-color: #99cccc}
+body {border: 3px dotted darkred; margin: 15px; background-color: #99cccc; padding: 10px}
 h3 {color: darkred;font-family:inherit; font-size:20pt}
-p {font-family:serif; font-size: 14pt;}
+p {font-family:serif; font-size: 14pt; border: none; padding: 10px;}
 #resume {text-align: center; font-family: inherit; font-size: 20pt; position:relative}
-        </style>
 #bachelor {color: darkblue; font-size:14pt;}
 #master {color: darkcyan; font-size:14pt;}
 #copyright {font-size: 8pt;}
