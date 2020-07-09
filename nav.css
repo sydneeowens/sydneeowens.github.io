@@ -1,0 +1,33 @@
+/**************************************************************
+* Description: CSS Nav Style Sheet
+
+* Author: Sydnee Owens
+
+*School/Term:  University of Missouri-Columbia, Summer 2020
+
+*Developed: July 6, 2020
+
+*Tested:  July 8, 2020; Passed on Firefox and Chrome browsers.
+**************************************************************/
+nav   ul li {
+                display: inline-block;
+                border: solid darkred;
+                width: 150px;
+                list-style-type: none;
+                padding: 15px 15px 15px 25px;
+                margin-top: 0;
+                margin-left: 10px;
+                position: relative;
+                background-color: #99cccc}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;}
+nav ul ul li {
+    float: none;}
+nav ul li:hover > ul {
+    display:block;}
+nav > ul::after {
+    content:close-quote;
+    display:block;
+    clear:both;}
