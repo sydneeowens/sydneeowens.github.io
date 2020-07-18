@@ -15,7 +15,7 @@ nav   ul li {
                 width: 150px;
                 list-style-type: none;
                 padding: 15px 15px 15px 25px;
-                float:right;
+                float:right
                 margin-top: 0;
                 margin-left: 10px;
                 position: relative;
@@ -33,7 +33,7 @@ nav > ul::after {
     display:block;
     clear:both;}
 #menu-icon {
-    display:flow-root;
+    display: hidden;
     width: 32px;
     height: 32px;
 }
@@ -42,7 +42,7 @@ nav > ul::after {
         position:absolute; 
     }
     #menu-icon {
-        display: inline-block;
+        display: inline-blcok;
     }
     nav ul, nav:active ul {
         display: none;

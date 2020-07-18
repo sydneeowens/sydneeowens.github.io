@@ -24,28 +24,10 @@ a {text-decoration: none; font-size: 10pt;}
 img {float: right; padding: 10px; margin: 10px; border: solid darkred}
 li > a:hover {color:darkred; font-size: 14pt;}
 footer {border-top: 5px solid darkred}
-#header {
-    width: 90%;
-    max-width: 1024px;
-}
-main {
-    width: 75%;
-    padding: 15px;
-}
-aside { 
-    width: 34.375%;
-    padding: 15px;
-    float: right;
-}
-#sideA {
-    float: left; height: 75%; width: 34.375%; margin-left: 2em; padding: 10px; margin: 10px; margin-top: 0.25em;
-}
-#sideB {
-    width: 34.375%; height: 75%; float: right; padding: 10px; margin: 10px; margin-top: 1em; 
-}
+
 @media screen and (max-width:500px) {
     body {
-        width:100%; padding: 15px;
+        width:100%; 
     }
 }
 @media screen and (max-width:320px) {
