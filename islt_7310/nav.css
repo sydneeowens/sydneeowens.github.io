@@ -21,7 +21,7 @@ nav   ul li {
                 position: relative;
                 background-color: #99cccc}
 nav ul ul {
-    display: none;
+    display: block;
     position: absolute;
     top: 100%;}
 nav ul ul li {
@@ -45,7 +45,7 @@ nav > ul::after {
         display: inline-block;
     }
     nav ul, nav:active ul {
-        display: none;
+        display: block;
         position: absolute;
         padding: 20px;
         right: 10px;
