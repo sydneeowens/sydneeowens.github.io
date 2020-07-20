@@ -22,8 +22,18 @@ p {font-family:serif; font-size: 14pt; border: none; padding: 10px;}
 #copyright {font-size: 8pt;}
 a {text-decoration: none; font-size: 10pt;}
 img {float: right; padding: 10px; margin: 10px; border: solid darkred}
-li > a:hover {color:darkred; font-size: 14pt;}
+#email {height: 30px; width: 30px; border-top: 5px; padding: none; border: none; float: none}
+#phone {height: 20px; width: 20px; border-top: 5px; padding: none; border: none; float: none}
 footer {border-top: 5px solid darkred}
+  .box {
+                    width: 675px; 
+                    height: 200px;
+                    padding: 10px;
+                    margin: 10px auto;
+                    box-shadow: 0px 0px 10px 2px grey;
+                    background-image: url(images/sunset-1373171_640.jpg);
+                    background-size: cover;
+                }
 #header {
     width: 90%;
     max-width: 1024px;
