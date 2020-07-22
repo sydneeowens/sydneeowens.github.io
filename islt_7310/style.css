@@ -28,7 +28,7 @@ a {text-decoration: none; font-size: 10pt;}
 img {float: right; padding: 10px; margin: 10px; border: solid darkred}
 #email {height: 30px; width: 30px; border-top: 5px; padding: none; border: none; float: none}
 #phone {height: 20px; width: 20px; border-top: 5px; padding: none; border: none; float: none}
-footer {border-top: 5px solid darkred}
+.footer {border-top: 5px solid darkred}
   .box {
                     width: 675px; 
                     height: 200px;
@@ -42,19 +42,19 @@ footer {border-top: 5px solid darkred}
     width: 90%;
     max-width: 1024px;
 }
-main {
+.main {
     width: 75%;
     padding: 15px;
 }
-aside { 
+.aside { 
     width: 34.375%;
     padding: 15px;
     float: right;
 }
-#sideA {
+.#sideA {
     float: left; height: 75%; width: 34.375%; margin-left: 2em; padding: 10px; margin: 10px; margin-top: 0.25em;
 }
-#sideB {
+.#sideB {
     width: 34.375%; height: 75%; float: right; padding: 10px; margin: 10px; margin-top: 1em; 
 }
 @media screen and (max-width:500px) {
