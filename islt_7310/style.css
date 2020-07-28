@@ -27,12 +27,12 @@ p {font-family:Merriweather; font-size: 14pt; border: none; padding: 10px;}
 #flippedexample {font-size: 30pt}
 a {text-decoration: none; font-size: 15pt;}
 img {float: right; padding: 10px; margin: 10px; border: solid darkred}
-#email {height: 30px; width: 30px; border-top: 5px; padding:inherit; border: none; float: none;}
+#emailicon {height: 30px; width: 30px; border-top: 5px; padding:inherit; border: none; float: none;}
 #phone {height: 20px; width: 20px; border-top: 5px; padding:inherit; border: none; float: none;}
 #phone:hover {
     transform:scale(2, 2);
 }
-#email:hover {
+#emailicon:hover {
     transform:scale(2, 2);
 }
 #twitter {height: 15%; width: 15%}
