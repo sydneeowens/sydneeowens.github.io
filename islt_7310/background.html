@@ -5,9 +5,9 @@
 
 *****************************************************************************
 
-Title:  Reflection page
+Title:  Background Page
 
-Use:  Provide reflection and teaching philosophy.  
+Use:  Provide basic information about the site. 
 
 Author:  Sydnee Owens
 
@@ -21,18 +21,22 @@ Tested:  July 22, 2020; Passed on Firefox and Chrome browsers.
 
             -->
      <meta charset="utf-8">
-     <title>Reflection</title>
+     <title>Welcome to Sydnee Owens's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
      <style>
          a:link {color: darkblue;}
          a:visited {color: darkmagenta;}
          a:active {color:blueviolet;}
          a:hover {color: crimson;}
          a:focus {color: green}
+         @font-face {
+             font-family: Merriweather;}
         </style>
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-</head>
+<link rel="icon" type="image/x-icon" href="favicon.ico" />
+</head> 
 <body>
   <nav> 
       <a href="#" id="menu-icon"></a>
@@ -50,10 +54,31 @@ Tested:  July 22, 2020; Passed on Firefox and Chrome browsers.
         <li><a
         href="contact.html">Contact</a></li>
             </ul></nav>
-    <h1>Reflection</h1>
-     <p>I love being innovative and never teaching the same way twice. Keeping this portfolio will encourage me to continue to try new things and document them along the way. It is also a great way for me to reflect on my teaching practices and remember things that worked well and learn from things that didn’t go as planned. I hope to inspire others with my work, but most importantly continue to challenge myself and be a better teacher every year for my students.</p>
-    <h3>Teaching Philosophy</h3>
-    <blockquote>I believe all students are naturally curious. I believe in guiding students to be seekers of knowledge by showing them how to use tools to find answers to their questions and solutions to their problems. I believe in encouraging scholars to take charge of their own education, become life long learners and innovative digital citizens.</blockquote>
+   <div id="header">
+    <h1>Background</h1>
+    </div>
+<main>  
+    <table>
+        <caption><h3>Teaching Experience</h3></caption>
+        <thead>
+        <tr>
+        <th class="left" scope="col">Schools</th>
+        <th scope=col>Grade Level Taught</th>
+        <th scope=col>Years</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+            <td class="left" scope=row>Lee A. Tolbert Community Academy (Charter School in Kansas City, Missouri)</td>
+            <td scope=row>4th and 5th Grade</td>
+            <td scope="row">2016-2020</td></tr>
+            <tr>
+            <td scope=row class="left">Winnwood Elementary (North Kansas City School District)</td>
+            <td scope=row>3rd Grade</td>
+            <td scope=row>2020-present</td></tr>
+        </tbody>
+    </table>
+    </main>
 <footer>
         <div class="box">
         <p id="copyright"> &copy; Copyright 2020 Sydnee Owens <img id="email" src="images/icons8-email-64.png" alt="This is a photo"/><a href="mailto:ssor34@umkc.edu">ssor34@umkc.edu</a>

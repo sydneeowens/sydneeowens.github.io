@@ -1,0 +1,60 @@
+/**************************************************************
+* Description: CSS Nav Style Sheet
+
+* Author: Sydnee Owens
+
+*School/Term:  University of Missouri-Columbia, Summer 2020
+
+*Developed: July 6, 2020
+
+*Tested:  July 8, 2020; Passed on Firefox and Chrome browsers.
+**************************************************************/
+nav ul li {
+                display: inline-block;
+                border: solid darkred;
+                width: 100px;
+                list-style-type: none;
+                padding: 10px 10px 10px 10px;
+                float:left;
+                margin-top: 0;
+                margin-left: 10px;
+                position: relative;
+                background-color: #99cccc}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;}
+nav ul ul li {
+    float: none;}
+nav ul li:hover > ul {
+    display:block;}
+nav ul:after {
+    content:close-quote;
+    display:block;
+    clear:both;}
+#menu-icon {
+    display:flow-root;
+    width: 32px;
+    height: 32px;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 480px){
+    /*Make dropdown links appear inline*/
+    ul {
+        position: left;
+        display: none;
+    }
+    /*Create vertical spacing*/
+    li {
+        margin-bottom: 1px;
+    }
+    /*Make all menu links full width*/
+    ul li, li a {
+        width: 50%;
+    }
+}
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 480px) {
+  div.example {
+    font-size: 20px;
+      

@@ -41,24 +41,39 @@ Tested:  July 22, 2020; Passed on Firefox and Chrome browsers.
             <li><a href="index.html">Home</a></li>
        <li><a href="resume.html">Resume</a></li>
        <li><a href="reflection.html">Reflection</a></li>
-       <li><a href="contact.html">Contact</a></li>
+       <li><a href="background.html">Background</a></li>
        <li><a href="projects.html">Projects</a>
            <ul>
                <li><a href=#project1>Project 1</a></li>
                <li><a href=#project2>Project 2</a></li>
                <li><a href=#project3>Project 3</a></li>
            </ul>
-       </li>
+        <li><a
+        href="contact.html">Contact</a></li>
             </ul></nav>
    <div id="header">
     <h1>Contact</h1>
     </div>
     <aside id="sideA"><img src="images/IMG_1060%20(3)%20(compressed).png" alt="This is a photo" height="300" width="200"></aside>
-<main>
-    <h3>How can you contact me?</h3>
-    <p>Email Me! <a href="mailto:ssor34@umkc.edu">ssor34@umkc.edu</a> 
-    </p>
-    </main>
+<div class="container2">
+  <form action="mailto:ssor34@umkc.edu?subject=Portfolio%20Website%20Contact" method="post" enctype="text/plain">
+
+    <label for="fname"></label>
+    <input type="text" id="fname" name="firstname" placeholder="First Name" required>
+
+    <label for="lname"></label>
+    <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+
+    <label for="emailaddress"></label>
+    <input type="emailaddress" id="emailadress" name="email" placeholder="Email" required>
+
+    <label for="body"></label>
+    <textarea id="body" name="body" placeholder="Write your message here." style="height:100px" required></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>  
 <aside id="sideB">
     <h3>Follow Me on Social Media!</h3>
     <p><a href="https://twitter.com/MsSydneeOwens">@MsSydnee Owens</a> on Twitter</p>
