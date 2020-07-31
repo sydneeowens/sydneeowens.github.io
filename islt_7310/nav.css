@@ -41,7 +41,6 @@ nav ul:after {
 @media screen and (max-width : 480px){
     /*Make dropdown links appear inline*/
     ul {
-        position: left;
         display: none;
     }
     /*Create vertical spacing*/
@@ -55,6 +54,6 @@ nav ul:after {
 }
 /* If the screen size is 600px or less, set the font-size of <div> to 30px */
 @media only screen and (max-width: 480px) {
-  div.example {
-    font-size: 20px;
+    div.example {font-size: 20px;}
+}
       
